@@ -7492,6 +7492,12 @@ input:checked ~ .label {
     width: 4.55rem;
   }
 }
+@media only screen and (min-width: 1300px) {
+  .page-header__crest {
+    position: absolute;
+    left: -86px;
+  }
+}
 
 .page-header__btn {
   text-align: right;
