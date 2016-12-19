@@ -44,7 +44,9 @@
     width: 12.3rem;
   }
 }
-
+.page-header__logo img {
+  height: 100%;
+}
 .page-header__crest {
   margin-bottom: 0;
   margin-right: 0.6rem;
@@ -67,6 +69,7 @@
   .page-header__crest {
     position: absolute;
     left: -86px;
+    top: 9px;
   }
 }
 
